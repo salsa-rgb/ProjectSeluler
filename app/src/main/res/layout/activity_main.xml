@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="24dp"
+    android:gravity="center_horizontal"
+    android:background="#F8FDF9">
+
+    <TextView
+        android:id="@+id/tvSapaan"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:textColor="#2E4F28"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="32dp"
+        android:gravity="center" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Jumlah Mahasiswa"
+        android:textSize="14sp"
+        android:textColor="#666666"
+        android:layout_marginBottom="4dp"/>
+    <EditText
+        android:id="@+id/etJumlahMahasiswa"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Masukkan jumlah mahasiswa"
+        android:inputType="number"
+        android:padding="12dp"
+        android:backgroundTint="#81A263"
+        android:layout_marginBottom="16dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Rata-rata Nilai"
+        android:textSize="14sp"
+        android:textColor="#666666"
+        android:layout_marginBottom="4dp"/>
+    <EditText
+        android:id="@+id/etRataNilai"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Masukkan rata-rata"
+        android:inputType="numberDecimal"
+        android:padding="12dp"
+        android:backgroundTint="#81A263"
+        android:layout_marginBottom="24dp"/>
+
+    <Button
+        android:id="@+id/btnProses"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:text="PROSES DATA"
+        android:backgroundTint="#81A263"
+        android:textColor="#FFFFFF"
+        android:textStyle="bold"
+        android:textSize="16sp" />
+
+</LinearLayout>
