@@ -30,7 +30,7 @@
 
 | Halaman Login (Portrait) | Halaman Login (Landscape) |
 | :---: | :---: |
-| ![Login Portrait](isi_link_gambar_di_sini) | ![Login Landscape](isi_link_gambar_di_sini) |
+| ![Login Portrait]() | ![Login Landscape](isi_link_gambar_di_sini) |
 
 | Halaman Input Data | Hasil Generate (If-Else & Loop) |
 | :---: | :---: |
