@@ -1,9 +1,9 @@
 # UTS Pemrograman Seluler - Aplikasi Generator Lembar Penilaian
 
 ## Identitas Mahasiswa
-- **Nama Lengkap:** [Ketik Nama Lengkap Anda]
-- **NIM:** [Ketik NIM Anda]
-- **Program Studi:** [Ketik Program Studi Anda]
+- **Nama Lengkap:** Salsabila Nur Shafa
+- **NIM:** 42430040
+- **Program Studi:** Teknologi Informasi
 
 ## Deskripsi Aplikasi
 Aplikasi ini dibangun untuk memenuhi Ujian Tengah Semester (UTS) mata kuliah Pemrograman Seluler. Aplikasi ini mendemonstrasikan penguasaan materi paruh pertama semester, meliputi:
@@ -14,7 +14,6 @@ Aplikasi ini dibangun untuk memenuhi Ujian Tengah Semester (UTS) mata kuliah Pem
    - Menggunakan perulangan `For Loop` untuk mencetak daftar absen/lembar penilaian secara otomatis.
 
 ## Screenshot Aplikasi
-*(Catatan: Ganti teks di dalam kurung siku dengan link URL gambar screenshot aplikasi Anda)*
 
 ### 1. Halaman Login (Responsif)
 | Mode Portrait | Mode Landscape |
