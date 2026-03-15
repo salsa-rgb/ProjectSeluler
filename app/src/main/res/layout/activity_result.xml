@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F8FDF9">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="24dp">
+
+        <TextView
+            android:id="@+id/tvDosen"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:textColor="#2E4F28"
+            android:gravity="center"
+            android:layout_marginBottom="24dp"/>
+
+        <TextView
+            android:id="@+id/tvRingkasan"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Ringkasan Data"
+            android:padding="16dp"
+            android:background="#E8F5E9"
+            android:textColor="#333333"
+            android:lineSpacingExtra="4dp"
+            android:layout_marginBottom="20dp"/>
+
+        <TextView
+            android:id="@+id/tvHasilLoop"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Daftar Mahasiswa"
+            android:textColor="#444444"
+            android:lineSpacingExtra="4dp"
+            android:layout_marginBottom="24dp"/>
+
+        <Button
+            android:id="@+id/btnKembali"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:text="KEMBALI KE INPUT"
+            android:backgroundTint="#81A263"
+            android:textColor="#FFFFFF" />
+
+    </LinearLayout>
+</ScrollView>
