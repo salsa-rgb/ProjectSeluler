@@ -1,6 +1,9 @@
-# ProjectSeluler - Aplikasi Manajemen Penilaian Dosen
+# Tugas UTS - Aplikasi Manajemen Penilaian Dosen
 
-Aplikasi Android ini dikembangkan sebagai tugas UTS Pemrograman Seluler. Aplikasi ini berfungsi untuk membantu dosen mengelola data mahasiswa, melakukan penilaian otomatis, dan menampilkan daftar absensi dengan desain yang responsif.
+## 👤 Identitas Mahasiswa
+* **Nama:** Salsabila Nur Shafa
+* **NIM:** 42430040
+* **Program Studi:** Teknologi Informasi
 
 ## 📋 Deskripsi Modul
 
@@ -13,7 +16,6 @@ Aplikasi Android ini dikembangkan sebagai tugas UTS Pemrograman Seluler. Aplikas
 * **Implementasi:** Menggunakan **Explicit Intent** untuk mengirimkan data antar Activity.
 * **Alur Data:** 1. Mengirim Nama Dosen dari `LoginActivity` ke `MainActivity`.
   2. Mengirim Nama Dosen, Jumlah Mahasiswa, dan Rata-rata Nilai dari `MainActivity` ke `ResultActivity`.
-* **Fitur:** Sapaan dinamis *"Selamat bertugas, Dosen [Nama]"* di setiap halaman.
 
 ### Modul 5: Logika Pemrograman (Control Flow)
 * **Logika Kondisi (If-Else):** Menentukan status kelas secara otomatis berdasarkan input rata-rata nilai:
@@ -35,9 +37,3 @@ Aplikasi Android ini dikembangkan sebagai tugas UTS Pemrograman Seluler. Aplikas
 | ![Input Data](isi_link_gambar_di_sini) | ![Output](isi_link_gambar_di_sini) |
 
 ---
-
-## 🛠️ Teknologi yang Digunakan
-* **Bahasa:** Java
-* **IDE:** Android Studio
-* **Version Control:** Git & GitHub
-* **Framework:** Android SDK (UI Components, Intent, Activity Lifecycle)
